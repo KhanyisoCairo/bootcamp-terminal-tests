@@ -7,7 +7,7 @@ describe('mostProfitableDepartment function' , function(){
     });
 
  
-    // it('should  return department with highest profit ' , function(){
-    //     assert.deepEqual(mostProfitableDepartment([{"department":"outdoor","sales":8507,"day":"Wednesday"},{"department":"carpentry","sales":8009,"day":"Wednesday"},]), "outdoor")
-    // });
+    it('should  return department with highest profit ' , function(){
+        assert.deepEqual(mostProfitableDepartment([{"department":"outdoor","sales":8507,"day":"Wednesday"},{"department":"carpentry","sales":8009,"day":"Wednesday"},]), "outdoor")
+    });
 });
